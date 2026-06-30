@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Quantum Dot Temperature Prediction with Python and Dask"
+message: "If you use this code, please cite this repository."
+type: software
+authors:
+  - family-names: Krivenkov
+    given-names: Victor
+version: 0.1.0
+date-released: 2026-06-30
+license: MIT

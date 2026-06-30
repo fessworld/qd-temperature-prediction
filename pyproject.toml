@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qd-temperature-prediction"
+version = "0.1.0"
+description = "Temperature prediction from quantum dot spectra and photoluminescence lifetime features"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Victor Krivenkov"}
+]
+dependencies = [
+  "numpy>=2.0",
+  "pandas>=2.0",
+  "matplotlib>=3.8",
+  "scikit-learn>=1.4",
+  "dask[dataframe,distributed]>=2024.0",
+  "joblib>=1.3",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

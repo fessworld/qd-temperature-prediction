@@ -1,0 +1,14 @@
+name: qd-temp-ml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - dask
+  - distributed
+  - joblib
+  - pytest
+  - pip

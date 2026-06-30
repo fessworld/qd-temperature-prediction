@@ -1,0 +1,7 @@
+numpy>=2.0
+pandas>=2.0
+matplotlib>=3.8
+scikit-learn>=1.4
+dask[dataframe,distributed]>=2024.0
+joblib>=1.3
+pytest>=8.0
